@@ -23,6 +23,8 @@
 -- this behaviour and have it refresh every time new data is added to the statistics sql, 
 -- set the 'refreshOnlyOncePerDay' flag below to 'false'.
 
+require("ui/uimanager"):showInfoMessage("Reading Insights patch loaded")
+
 local refreshOnlyOncePerDay = true
 
 local Blitbuffer = require("ffi/blitbuffer")
